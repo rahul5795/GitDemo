@@ -62,7 +62,8 @@ public class StandAloneTest {
 		jse.executeScript("arguments[0].click()", placeOrder);
 
 		String confirmMessage = driver.findElement(By.cssSelector(".hero-primary")).getText();
-
+       System.out.println(confirmMessage);
+       System.out.println(confirmMessage);
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		driver.quit();
 
