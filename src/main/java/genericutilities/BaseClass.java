@@ -19,6 +19,9 @@ import org.testng.annotations.BeforeMethod;
 
 import pageObjects.LandingPage;
 
+
+
+
 public class BaseClass {
 
 	public WebDriver driver;
